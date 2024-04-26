@@ -4,7 +4,7 @@ const User=require("../db/User")
 const { body, validationResult } = require('express-validator');
 const bcrypt=require('bcryptjs')
 const jwt=require('jsonwebtoken')
-const jwtsecret="MynameisAyushKaushalfromJalaunUP"
+const jwtsecret="MynameisDhruvGupta"
 
 
 router.post('/createuser',
