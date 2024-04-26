@@ -1,0 +1,170 @@
+.main
+{
+  background-color: #494F55;
+  width: 40vw;
+  color: white;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 5%;
+}
+.header
+{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+.btn
+{
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+.inputWrapper{
+display: flex;
+flex-direction: column
+}
+
+.inputForm
+{
+  padding: 10px;
+  border: none;
+  margin-top: 8 px;
+  margin-bottom: 15px;
+  
+}
+label
+{
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.btnSave{
+
+  width: 100px;
+  height: 30px;
+  pad: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+.btnwrapper
+{
+  display: flex;
+  gap:10px;
+}
+.Card
+{
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For desktop: */
+  
+  .main {width: 85vw;}
+}
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* background-color: #f9f9f9; */
+}
+
+.registration-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
+
+.registration-form .btn-danger {
+  background-color: #dc3545;
+}
+
+.registration-form .btn-danger:hover {
+  background-color: #c82333;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* background-color: #f9f9f9; */
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.container button {
+  padding: 10px;
+  background-color: #007bff;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.container .btn-danger {
+  background-color: #dc3545;
+}
+
+.container .btn-danger:hover {
+  background-color: #c82333;
+}
